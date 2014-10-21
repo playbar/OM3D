@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "main/pbrt.cpp"
+         timestampString = "411628296.340727"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1788"
+         endingLineNumber = "1788"
+         landmarkName = "quadrature(Point intersectionPt, Vector n, Ray r, BVHAccel* bvhAccel, bool didIntersect, Vector** diffuseLight, Vector** specularLight, bool hasSpecular, float* cTheta, float* sTheta, float* cPhi, float* sPhi, float SphereRadius, int ndivs, float* groundAxis, float* shines, int nshines, Vector* diffuseColors, Vector* specularColors, Point groundPt, Vector groundn, Vector* groundColorNoObj, float* t=NULL, double* K=NULL, bool* B=NULL)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "main/pbrt.cpp"
+         timestampString = "411882923.499788"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "5016"
+         endingLineNumber = "5016"
+         landmarkName = "extractTexture(BVHAccel* bvhAccel, BVHAccel* texAccel, Vector* vertexNormals, Vector* vertexNormalsOrig, Point* Vertices, Point* VerticesOriginal, int* NormalFaces, int* Faces, int* TriNeighbors, Vector* Symns, float* Symds, int&amp; Symnum,int* bestsymidxs, Point* TextureVertices, int* TextureFaces, Point* TextureVertices_D, int* TextureFaces_D, int* adjacencies, // geometry float* I, float* Itexorig, float* Itexartist, float* Itexartistambient, float* Itexartistspecular, float* Itexdiff, int* materialnums, float* Btex, float* Igroundtex, float* Igroundmask, float* Ishadowmask, double* K, bool* B, float* diffuseAlbedo, float* ambientAlbedo, float* specularAlbedo_m, float* colordifference, float u0, float v0, float ifu, float ifv, float fu, float fv, float* groundAxis,// camera parameters float* Theta, float* Phi, Vector** diffuseLight, Vector** specularLight, Vector&amp; ambientLight,int&amp; ishinebest, // light sphere parameters float* cTheta, float* sTheta, float* cPhi, float* sPhi, float SphereRadius, Vector&amp; albedo, Vector&amp; groundAlbedo, Vector&amp; ambientGroundAlbedo, Vector&amp; specularAlbedo, float shadowweight, float xmin, float xmax, float ymin, float ymax, int ysize, int ysizeact,// image parameters bool hasSpecular, int npixels, int nkernels, int ndivs, int nsamp, int shapeIdOffset, int texIdOffset, int dmapwidth, int dmapheight, int nv, int nt, int filterhsize, int filtertype, float inv_sigma_sq, // filter parameters string&amp; path, string&amp; direc, string&amp; outputfilename, int iternum, float lightLambdaError, float o2w[4][4], int kmeansK=0, float* shines=NULL, int nshines=1, bool useViewSpecific=false, float o2wView[4][4]=NULL, BVHAccel* firstAccel=NULL)"
+         landmarkType = "7">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>
