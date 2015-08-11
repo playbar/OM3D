@@ -1,4 +1,4 @@
-Welcome to version 1.0.2 of OM3D, the software to perform 3D object manipulation in photographs using stock 3D models. We provide the source code for this project here. All code has been written and tested in Xcode 5.1 on OS X 10.9. 
+Welcome to version 1.0.1 of OM3D, the software to perform 3D object manipulation in photographs using stock 3D models. We provide the source code for this project here. All code has been written and tested in Xcode 5.1 on OS X 10.9. 
 
 We provide this software under the GNU General Public License v2.0. Details about the license in the LICENSE.txt file.
 
@@ -39,6 +39,4 @@ DYLD_LIBRARY_PATH: append path to MOSEK dynamic library.
 MOSEKLM_LICENSE_FILE: provide file together with the absolute path
 
 The project illumapp.xcodeproj (in the IlluminationAndAppearanceEstimation directory) requires a link to the MOSEK library. Please add the MOSEK library using the `Add Files’ option in Xcode, and set the user-defined setting MOSEK_DIR to the directory containing the `include/‘ folder for MOSEK files before compiling.
-
-NOTE: This and all previous versions do not currently iteratively update the reflectance, and only estimate illumination in one pass.
 

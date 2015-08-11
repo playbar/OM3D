@@ -385,7 +385,7 @@ using namespace std;
 	//fu=500.0f; fv=500.0f;
     fu=imwidth*focallength/sensorwidth;
     fv=fu;
-    //printf("fu=%f\n", fu);
+    printf("fu=%f\n", fu);
 
     /*
 	fid=fopen(path.append("image_inverted.dat").c_str(),"r");
@@ -594,7 +594,7 @@ using namespace std;
             fid1=fopen(path1.c_str(),"r");
         }
         fread(plane, 4, sizeof(float), fid1);
-        //printf("plane=[%f,%f,%f,%f]\n",plane[0],plane[1],plane[2],plane[3]);
+        printf("plane=[%f,%f,%f,%f]\n",plane[0],plane[1],plane[2],plane[3]);
         fclose(fid1);
     } else {
         planar=NULL;
@@ -1911,13 +1911,13 @@ using namespace std;
 				insertElementIntoArray(&clickedPoints, X,Y,Z);
 				pts2Drayconstrained[2*clickedPoints.size-2]=vvx;
 				pts2Drayconstrained[2*clickedPoints.size-1]=vvy;
-                //printf("%f, %f;", vvx, vvy);
+                printf("%f, %f;", vvx, vvy);
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"PointsCameraNotification" object:self];
 			} else if (openglViewNumber==1 && (theOperationMode==MODE_AXISROTATE || theOperationMode==MODE_PICKPOINTS)) {
                 int nearest3DPointIndex=[self computeNearest3DPointIndexUsingProjectionsTo_x:vvx y:vvy];
                 
                 //                printf("point=[%f,%f], normalizedPoint=[%f,%f], pickedPointIndex=%d\n",vx, vy, vvx, vvy, nearest3DPointIndex);
-                //printf("np=%d, ", nearest3DPointIndex);
+                printf("np=%d, ", nearest3DPointIndex);
 				X=objectModel_vertices[3*nearest3DPointIndex];
 				Y=objectModel_vertices[3*nearest3DPointIndex+1];
 				Z=objectModel_vertices[3*nearest3DPointIndex+2];
@@ -1943,7 +1943,7 @@ using namespace std;
             rayconstrained_idxs[nrayconstrained]=nearest3DPointIndex;
             //rayconstrained_idxs[nrayconstrained]=3617;
             
-            //printf("ray constrained index=%d\n", rayconstrained_idxs[nrayconstrained]);
+            printf("ray constrained index=%d\n", rayconstrained_idxs[nrayconstrained]);
             dlinex=objectProjections[3*nearest3DPointIndex];
             dliney=objectProjections[3*nearest3DPointIndex+1];
             pts2Drayconstrained[2*nrayconstrained]=dlinex;
@@ -1976,7 +1976,7 @@ using namespace std;
             
             rigid_idxs[nrigid]=nearest3DPointIndex;
             
-            //printf("rigid index=%d\n", rigid_idxs[nrigid]);
+            printf("rigid index=%d\n", rigid_idxs[nrigid]);
             
             dlinex=objectProjections[3*nearest3DPointIndex];
             dliney=objectProjections[3*nearest3DPointIndex+1];
@@ -2360,7 +2360,7 @@ using namespace std;
 		[self viewportTransformX:vx Y:vy toX:&vvx toY:&vvy];
 		pts2Drayconstrained[2*nrayconstrained-2]=vvx;
 		pts2Drayconstrained[2*nrayconstrained-1]=vvy;
-        //printf("Ray constrained end: %f, %f\n", vvx, vvy);
+        printf("Ray constrained end: %f, %f\n", vvx, vvy);
         //		pts2Drayconstrained[2*nrayconstrained-2]=1415.923950;
         //		pts2Drayconstrained[2*nrayconstrained-1]=1121.085327;
         [self arapSolve];
@@ -2379,7 +2379,7 @@ using namespace std;
 		pts2Drigid[2*nrigid-2]=vvx;
 		pts2Drigid[2*nrigid-1]=vvy;
 		[self setNeedsDisplay:YES];
-        //printf("nrigid=%d\n",nrigid);
+        printf("nrigid=%d\n",nrigid);
 		//if (toggleDeformUpState) {
 		//	[self viewportTransformX:vx Y:vy toX:&vvx toY:&vvy];
 		//	pts2Drayconstrained[2*nrayconstrained-2]=vvx;
@@ -3931,9 +3931,7 @@ using namespace std;
 
 -(void) setupSymmetryConstraints:(GLfloat*)mv
 {
-    int idxcurrent=0;
-    for (idxcurrent=0; idxcurrent<nvertices && symmetric[idxcurrent]==-1; idxcurrent++);
-    
+    int idxcurrent=900;
     int sidxcurrent=symmetric[idxcurrent];
     float normal[3]; float distance; float midpt[3];
     float Xt[3], Xsymt[3];
@@ -3957,22 +3955,22 @@ using namespace std;
     for (int i=0; i<nvertices; i+=16) {
         if (symmetric[i]>-1) {
             for (int j=0; j<3; j++) {
-                work[3*(valcountall+valcount)  ]=mAlb+mArc+mAa+eqcount;
+                work[3*(valcountall+valcount)  ]=eqcount;
                 work[3*(valcountall+valcount)+1]=3*symmetric[i]+j;
                 work[3*(valcountall+valcount)+2]=-1.0f*swi;
                 valcount++;
                 
-                work[3*(valcountall+valcount)  ]=mAlb+mArc+mAa+eqcount;
+                work[3*(valcountall+valcount)  ]=eqcount;
                 work[3*(valcountall+valcount)+1]=3*i;
                 work[3*(valcountall+valcount)+2]=Reflection[j]*swi;
                 valcount++;
                 
-                work[3*(valcountall+valcount)  ]=mAlb+mArc+mAa+eqcount;
+                work[3*(valcountall+valcount)  ]=eqcount;
                 work[3*(valcountall+valcount)+1]=3*i+1;
                 work[3*(valcountall+valcount)+2]=Reflection[j+3]*swi;
                 valcount++;
                 
-                work[3*(valcountall+valcount)  ]=mAlb+mArc+mAa+eqcount;
+                work[3*(valcountall+valcount)  ]=eqcount;
                 work[3*(valcountall+valcount)+1]=3*i+2;
                 work[3*(valcountall+valcount)+2]=Reflection[j+6]*swi;
                 valcount++;
@@ -4034,10 +4032,11 @@ using namespace std;
     
     [self setupRayConstraints:mv];
     [self setupAnchors:mv];
-    
+    /*
     if (symmetric && symmetryWeight>.5) {
         [self setupSymmetryConstraints:mv];
-    }
+    }*/
+    
     
     int niter=numiterations;
     double* x=new double[nA];

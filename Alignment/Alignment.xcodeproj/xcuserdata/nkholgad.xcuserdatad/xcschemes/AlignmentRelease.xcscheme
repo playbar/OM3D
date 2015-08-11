@@ -59,10 +59,27 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/nkholgad/CMU/Research/xcode/work/OM3D_1.0.2/examples/taxi/"
+            argument = "/Users/nkholgad/CMU/Research/xcode/work/examples_few/chair/"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "PATH"
+            value = "/Applications/MATLAB_R2013a.app/bin:/Applications/MATLAB_R2013a.app/bin/maci64:/Library/Frameworks/EPD64.framework/Versions/Current/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "DYLD_LIBRARY_PATH"
+            value = "/Applications/MATLAB_R2013a.app/runtime/maci64:/Applications/MATLAB_R2013a.app/bin/maci64:/Applications/MATLAB_R2013a.app/sys/os/maci64:/System/Library/Frameworks/JavaVM.framework/JavaVM:/System/Library/Frameworks/JavaVM.framework/Libraries"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "XAPPLRESDIR"
+            value = "/Applications/MATLAB_R2013a.app/X11/app-defaults"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
