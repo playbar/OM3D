@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0403932C1B7A713F004C3229 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932B1B7A713F004C3229 /* libz.dylib */; };
-		040393301B7A72E4004C3229 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932D1B7A72E4004C3229 /* libopencv_core.a */; };
-		040393311B7A72E4004C3229 /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932E1B7A72E4004C3229 /* libopencv_highgui.a */; };
-		040393321B7A72E4004C3229 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932F1B7A72E4004C3229 /* libopencv_imgproc.a */; };
+		040393551B7A77D3004C3229 /* libopencv_core.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393521B7A77D3004C3229 /* libopencv_core.3.0.0.dylib */; };
+		040393561B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393531B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib */; };
+		040393571B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393541B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib */; };
 		740959030CC8255A00261DBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740959010CC8255A00261DBF /* AppDelegate.m */; };
 		745217950CA98A790067AF41 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745217940CA98A790067AF41 /* OpenGL.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -186,6 +186,9 @@
 		0403932D1B7A72E4004C3229 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = 3rdparty/opencv/lib/libopencv_core.a; sourceTree = "<group>"; };
 		0403932E1B7A72E4004C3229 /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_highgui.a; path = 3rdparty/opencv/lib/libopencv_highgui.a; sourceTree = "<group>"; };
 		0403932F1B7A72E4004C3229 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = 3rdparty/opencv/lib/libopencv_imgproc.a; sourceTree = "<group>"; };
+		040393521B7A77D3004C3229 /* libopencv_core.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.0.0.dylib; path = 3rdparty/opencv/libopencv_core.3.0.0.dylib; sourceTree = "<group>"; };
+		040393531B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.0.0.dylib; path = 3rdparty/opencv/libopencv_highgui.3.0.0.dylib; sourceTree = "<group>"; };
+		040393541B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.0.0.dylib; path = 3rdparty/opencv/libopencv_imgproc.3.0.0.dylib; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -474,9 +477,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040393301B7A72E4004C3229 /* libopencv_core.a in Frameworks */,
-				040393311B7A72E4004C3229 /* libopencv_highgui.a in Frameworks */,
-				040393321B7A72E4004C3229 /* libopencv_imgproc.a in Frameworks */,
+				040393551B7A77D3004C3229 /* libopencv_core.3.0.0.dylib in Frameworks */,
+				040393561B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib in Frameworks */,
+				040393571B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib in Frameworks */,
 				0403932C1B7A713F004C3229 /* libz.dylib in Frameworks */,
 				F3311CCD19033352007FAE21 /* Accelerate.framework in Frameworks */,
 				F3FAE8181902DA7C00F88A1B /* CoreFoundation.framework in Frameworks */,
@@ -565,6 +568,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				040393521B7A77D3004C3229 /* libopencv_core.3.0.0.dylib */,
+				040393531B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib */,
+				040393541B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib */,
 				0403932D1B7A72E4004C3229 /* libopencv_core.a */,
 				0403932E1B7A72E4004C3229 /* libopencv_highgui.a */,
 				0403932F1B7A72E4004C3229 /* libopencv_imgproc.a */,
