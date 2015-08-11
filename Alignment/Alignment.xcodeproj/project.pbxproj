@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403934A1B7A767D004C3229 /* libeng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393481B7A767D004C3229 /* libeng.dylib */; };
+		0403934B1B7A767D004C3229 /* libmx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393491B7A767D004C3229 /* libmx.dylib */; };
+		0403934F1B7A7730004C3229 /* libopencv_core.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403934C1B7A7730004C3229 /* libopencv_core.3.0.0.dylib */; };
+		040393501B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403934D1B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib */; };
+		040393511B7A7730004C3229 /* libopencv_imgproc.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403934E1B7A7730004C3229 /* libopencv_imgproc.3.0.0.dylib */; };
 		740959030CC8255A00261DBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740959010CC8255A00261DBF /* AppDelegate.m */; };
 		745217950CA98A790067AF41 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745217940CA98A790067AF41 /* OpenGL.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -139,15 +144,10 @@
 		F34C6B63190F690400A86A46 /* exponential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6A45190F690400A86A46 /* exponential.cpp */; };
 		F34C6B64190F690400A86A46 /* homogeneous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6A47190F690400A86A46 /* homogeneous.cpp */; };
 		F34C6B65190F690400A86A46 /* volumegrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6A49190F690400A86A46 /* volumegrid.cpp */; };
-		F34C6B69190F697900A86A46 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6B66190F697900A86A46 /* libopencv_core.a */; };
-		F34C6B6A190F697900A86A46 /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6B67190F697900A86A46 /* libopencv_highgui.a */; };
-		F34C6B6B190F697900A86A46 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6B68190F697900A86A46 /* libopencv_imgproc.a */; };
 		F34C6B6D190F699A00A86A46 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6B6C190F699A00A86A46 /* libpng16.a */; };
 		F34C6B75190F6A8400A86A46 /* lsqr.c in Sources */ = {isa = PBXBuildFile; fileRef = F34C6B71190F6A8400A86A46 /* lsqr.c */; };
 		F34C6B76190F6A8400A86A46 /* lsqrblas.c in Sources */ = {isa = PBXBuildFile; fileRef = F34C6B73190F6A8400A86A46 /* lsqrblas.c */; };
 		F34C6B77190F6A8400A86A46 /* README in Resources */ = {isa = PBXBuildFile; fileRef = F34C6B74190F6A8400A86A46 /* README */; };
-		F3BC6DC11965DCCD004158E9 /* libeng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BC6DC01965DCCD004158E9 /* libeng.dylib */; };
-		F3BC6DC31965DCD8004158E9 /* libmx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BC6DC21965DCD8004158E9 /* libmx.dylib */; };
 		F3C0254E1906D28600357C5A /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = F3C0254C1906D28600357C5A /* MainMenu.nib */; };
 		F3C081061905B46F00A55A5E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C081051905B46F00A55A5E /* libz.dylib */; };
 		F3C0811D1905FB1700A55A5E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C0811C1905FB1700A55A5E /* Accelerate.framework */; };
@@ -183,6 +183,11 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		040393481B7A767D004C3229 /* libeng.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libeng.dylib; path = 3rdparty/matlab/libeng.dylib; sourceTree = "<group>"; };
+		040393491B7A767D004C3229 /* libmx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmx.dylib; path = 3rdparty/matlab/libmx.dylib; sourceTree = "<group>"; };
+		0403934C1B7A7730004C3229 /* libopencv_core.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.0.0.dylib; path = 3rdparty/opencv/libopencv_core.3.0.0.dylib; sourceTree = "<group>"; };
+		0403934D1B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.0.0.dylib; path = 3rdparty/opencv/libopencv_highgui.3.0.0.dylib; sourceTree = "<group>"; };
+		0403934E1B7A7730004C3229 /* libopencv_imgproc.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.0.0.dylib; path = 3rdparty/opencv/libopencv_imgproc.3.0.0.dylib; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -444,9 +449,6 @@
 		F34C6A48190F690400A86A46 /* homogeneous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homogeneous.h; sourceTree = "<group>"; };
 		F34C6A49190F690400A86A46 /* volumegrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = volumegrid.cpp; sourceTree = "<group>"; };
 		F34C6A4A190F690400A86A46 /* volumegrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = volumegrid.h; sourceTree = "<group>"; };
-		F34C6B66190F697900A86A46 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = 3rdparty/opencv/libopencv_core.a; sourceTree = "<group>"; };
-		F34C6B67190F697900A86A46 /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_highgui.a; path = 3rdparty/opencv/libopencv_highgui.a; sourceTree = "<group>"; };
-		F34C6B68190F697900A86A46 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = 3rdparty/opencv/libopencv_imgproc.a; sourceTree = "<group>"; };
 		F34C6B6C190F699A00A86A46 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = "3rdparty/png++/lib/libpng16.a"; sourceTree = "<group>"; };
 		F34C6B6E190F6A0500A86A46 /* Alignment.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alignment.pch; sourceTree = "<group>"; };
 		F34C6B70190F6A8400A86A46 /* cblas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cblas.h; sourceTree = "<group>"; };
@@ -454,8 +456,6 @@
 		F34C6B72190F6A8400A86A46 /* lsqr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lsqr.h; sourceTree = "<group>"; };
 		F34C6B73190F6A8400A86A46 /* lsqrblas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lsqrblas.c; sourceTree = "<group>"; };
 		F34C6B74190F6A8400A86A46 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		F3BC6DC01965DCCD004158E9 /* libeng.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libeng.dylib; path = ../../../../../../../../Applications/MATLAB_R2013a.app/bin/maci64/libeng.dylib; sourceTree = "<group>"; };
-		F3BC6DC21965DCD8004158E9 /* libmx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmx.dylib; path = ../../../../../../../../Applications/MATLAB_R2013a.app/bin/maci64/libmx.dylib; sourceTree = "<group>"; };
 		F3C0254D1906D28600357C5A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		F3C081051905B46F00A55A5E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.dylib; sourceTree = SYSTEM_DEVELOPER_DIR; };
 		F3C0811C1905FB1700A55A5E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = SYSTEM_DEVELOPER_DIR; };
@@ -472,15 +472,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F34C6B6A190F697900A86A46 /* libopencv_highgui.a in Frameworks */,
 				F3C0811D1905FB1700A55A5E /* Accelerate.framework in Frameworks */,
-				F34C6B6B190F697900A86A46 /* libopencv_imgproc.a in Frameworks */,
 				F3FAE8181902DA7C00F88A1B /* CoreFoundation.framework in Frameworks */,
+				0403934F1B7A7730004C3229 /* libopencv_core.3.0.0.dylib in Frameworks */,
+				040393511B7A7730004C3229 /* libopencv_imgproc.3.0.0.dylib in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				F3BC6DC11965DCCD004158E9 /* libeng.dylib in Frameworks */,
+				040393501B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib in Frameworks */,
+				0403934A1B7A767D004C3229 /* libeng.dylib in Frameworks */,
 				745217950CA98A790067AF41 /* OpenGL.framework in Frameworks */,
-				F3BC6DC31965DCD8004158E9 /* libmx.dylib in Frameworks */,
-				F34C6B69190F697900A86A46 /* libopencv_core.a in Frameworks */,
+				0403934B1B7A767D004C3229 /* libmx.dylib in Frameworks */,
 				F3C081061905B46F00A55A5E /* libz.dylib in Frameworks */,
 				F34C6B6D190F699A00A86A46 /* libpng16.a in Frameworks */,
 			);
@@ -529,12 +529,12 @@
 		29B97314FDCFA39411CA2CEA /* Cocoa OpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				F3BC6DC21965DCD8004158E9 /* libmx.dylib */,
-				F3BC6DC01965DCCD004158E9 /* libeng.dylib */,
+				0403934C1B7A7730004C3229 /* libopencv_core.3.0.0.dylib */,
+				0403934D1B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib */,
+				0403934E1B7A7730004C3229 /* libopencv_imgproc.3.0.0.dylib */,
+				040393481B7A767D004C3229 /* libeng.dylib */,
+				040393491B7A767D004C3229 /* libmx.dylib */,
 				F34C6B6C190F699A00A86A46 /* libpng16.a */,
-				F34C6B66190F697900A86A46 /* libopencv_core.a */,
-				F34C6B67190F697900A86A46 /* libopencv_highgui.a */,
-				F34C6B68190F697900A86A46 /* libopencv_imgproc.a */,
 				F34C6133190F642600A86A46 /* objectmanipulation */,
 				F34C680B190F690300A86A46 /* 3rdparty */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -1232,6 +1232,7 @@
 					/usr/local/Cellar/opencv/2.4.8.2/lib,
 					"$(PROJECT_DIR)/3rdparty/opencv",
 					"$(PROJECT_DIR)/3rdparty/png++/lib",
+					"$(PROJECT_DIR)/3rdparty/matlab",
 				);
 				MATLAB_NAME = MATLAB_R2014b.app;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1271,6 +1272,7 @@
 					/usr/local/Cellar/opencv/2.4.8.2/lib,
 					"$(PROJECT_DIR)/3rdparty/opencv",
 					"$(PROJECT_DIR)/3rdparty/png++/lib",
+					"$(PROJECT_DIR)/3rdparty/matlab",
 				);
 				MATLAB_NAME = MATLAB_R2014b.app;
 				ONLY_ACTIVE_ARCH = YES;
