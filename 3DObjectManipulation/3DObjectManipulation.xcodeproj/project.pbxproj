@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403932C1B7A713F004C3229 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932B1B7A713F004C3229 /* libz.dylib */; };
+		040393301B7A72E4004C3229 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932D1B7A72E4004C3229 /* libopencv_core.a */; };
+		040393311B7A72E4004C3229 /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932E1B7A72E4004C3229 /* libopencv_highgui.a */; };
+		040393321B7A72E4004C3229 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932F1B7A72E4004C3229 /* libopencv_imgproc.a */; };
 		740959030CC8255A00261DBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740959010CC8255A00261DBF /* AppDelegate.m */; };
 		745217950CA98A790067AF41 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745217940CA98A790067AF41 /* OpenGL.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -146,10 +150,6 @@
 		F34C67FB190F656900A86A46 /* homogeneous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66DE190F656900A86A46 /* homogeneous.cpp */; };
 		F34C67FC190F656900A86A46 /* volumegrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66E0190F656900A86A46 /* volumegrid.cpp */; };
 		F34C67FE190F65B900A86A46 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C67FD190F65B900A86A46 /* libpng16.a */; };
-		F34C6808190F671700A86A46 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6805190F671700A86A46 /* libopencv_core.a */; };
-		F34C6809190F671700A86A46 /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6806190F671700A86A46 /* libopencv_highgui.a */; };
-		F34C680A190F671700A86A46 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6807190F671700A86A46 /* libopencv_imgproc.a */; };
-		F3C081061905B46F00A55A5E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C081051905B46F00A55A5E /* libz.dylib */; };
 		F3FAE8181902DA7C00F88A1B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FAE8171902DA7C00F88A1B /* CoreFoundation.framework */; };
 		F3FAE8211902DAD300F88A1B /* CameraSetup.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3FAE81A1902DAD300F88A1B /* CameraSetup.mm */; };
 		F3FAE8231902DAD300F88A1B /* matrixUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = F3FAE81D1902DAD300F88A1B /* matrixUtils.c */; };
@@ -182,6 +182,10 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		0403932B1B7A713F004C3229 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		0403932D1B7A72E4004C3229 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = 3rdparty/opencv/lib/libopencv_core.a; sourceTree = "<group>"; };
+		0403932E1B7A72E4004C3229 /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_highgui.a; path = 3rdparty/opencv/lib/libopencv_highgui.a; sourceTree = "<group>"; };
+		0403932F1B7A72E4004C3229 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = 3rdparty/opencv/lib/libopencv_imgproc.a; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -456,9 +460,6 @@
 		F34C66E0190F656900A86A46 /* volumegrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = volumegrid.cpp; sourceTree = "<group>"; };
 		F34C66E1190F656900A86A46 /* volumegrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = volumegrid.h; sourceTree = "<group>"; };
 		F34C67FD190F65B900A86A46 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = "3rdparty/png++/lib/libpng16.a"; sourceTree = "<group>"; };
-		F34C6805190F671700A86A46 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = 3rdparty/opencv/libopencv_core.a; sourceTree = "<group>"; };
-		F34C6806190F671700A86A46 /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_highgui.a; path = 3rdparty/opencv/libopencv_highgui.a; sourceTree = "<group>"; };
-		F34C6807190F671700A86A46 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = 3rdparty/opencv/libopencv_imgproc.a; sourceTree = "<group>"; };
 		F3C081051905B46F00A55A5E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.dylib; sourceTree = SYSTEM_DEVELOPER_DIR; };
 		F3FAE8171902DA7C00F88A1B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = SYSTEM_DEVELOPER_DIR; };
 		F3FAE8191902DAD300F88A1B /* CameraSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSetup.h; sourceTree = "<group>"; };
@@ -473,15 +474,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F34C6809190F671700A86A46 /* libopencv_highgui.a in Frameworks */,
+				040393301B7A72E4004C3229 /* libopencv_core.a in Frameworks */,
+				040393311B7A72E4004C3229 /* libopencv_highgui.a in Frameworks */,
+				040393321B7A72E4004C3229 /* libopencv_imgproc.a in Frameworks */,
+				0403932C1B7A713F004C3229 /* libz.dylib in Frameworks */,
 				F3311CCD19033352007FAE21 /* Accelerate.framework in Frameworks */,
-				F34C680A190F671700A86A46 /* libopencv_imgproc.a in Frameworks */,
 				F3FAE8181902DA7C00F88A1B /* CoreFoundation.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				745217950CA98A790067AF41 /* OpenGL.framework in Frameworks */,
-				F34C6808190F671700A86A46 /* libopencv_core.a in Frameworks */,
 				F34C67FE190F65B900A86A46 /* libpng16.a in Frameworks */,
-				F3C081061905B46F00A55A5E /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,9 +529,6 @@
 		29B97314FDCFA39411CA2CEA /* Cocoa OpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				F34C6805190F671700A86A46 /* libopencv_core.a */,
-				F34C6806190F671700A86A46 /* libopencv_highgui.a */,
-				F34C6807190F671700A86A46 /* libopencv_imgproc.a */,
 				F34C67FD190F65B900A86A46 /* libpng16.a */,
 				F34C64A2190F656900A86A46 /* 3rdparty */,
 				F3311CBC1903330F007FAE21 /* objectmanipulation */,
@@ -567,6 +565,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0403932D1B7A72E4004C3229 /* libopencv_core.a */,
+				0403932E1B7A72E4004C3229 /* libopencv_highgui.a */,
+				0403932F1B7A72E4004C3229 /* libopencv_imgproc.a */,
+				0403932B1B7A713F004C3229 /* libz.dylib */,
 				F3C081051905B46F00A55A5E /* libz.dylib */,
 				F3311CCC19033352007FAE21 /* Accelerate.framework */,
 				F3FAE8171902DA7C00F88A1B /* CoreFoundation.framework */,
@@ -1229,7 +1231,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = 3DObjectManipulation;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.10;
 				SYMROOT = build;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -1265,7 +1267,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = 3DObjectManipulation;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.10;
 				SYMROOT = build;
 				WRAPPER_EXTENSION = app;
 			};

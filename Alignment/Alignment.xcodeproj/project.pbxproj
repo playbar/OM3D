@@ -1212,10 +1212,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					PBRT_PROBES_NONE,
-					USEMATLAB,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = PBRT_PROBES_NONE;
 				HEADER_SEARCH_PATHS = (
 					.,
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -1231,11 +1228,12 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
-					"$(SYSTEM_APPS_DIR)/MATLAB_R2013a.app/bin/maci64",
+					"$(SYSTEM_APPS_DIR)/MATLAB_R2014b.app/bin/maci64",
 					/usr/local/Cellar/opencv/2.4.8.2/lib,
 					"$(PROJECT_DIR)/3rdparty/opencv",
 					"$(PROJECT_DIR)/3rdparty/png++/lib",
 				);
+				MATLAB_NAME = MATLAB_R2014b.app;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = Alignment;
@@ -1253,10 +1251,7 @@
 				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					PBRT_PROBES_NONE,
-					USEMATLAB,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = PBRT_PROBES_NONE;
 				HEADER_SEARCH_PATHS = (
 					.,
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -1272,11 +1267,12 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
-					"$(SYSTEM_APPS_DIR)/MATLAB_R2013a.app/bin/maci64",
+					"$(SYSTEM_APPS_DIR)/MATLAB_R2014b.app/bin/maci64",
 					/usr/local/Cellar/opencv/2.4.8.2/lib,
 					"$(PROJECT_DIR)/3rdparty/opencv",
 					"$(PROJECT_DIR)/3rdparty/png++/lib",
 				);
+				MATLAB_NAME = MATLAB_R2014b.app;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = Alignment;

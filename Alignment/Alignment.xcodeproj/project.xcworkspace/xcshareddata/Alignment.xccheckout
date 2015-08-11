@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E9EF3064-553D-4997-9FA2-50767B361375</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Alignment</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0FBE630A4100D1A9E8E9848FAC43F29F6950E0EC</key>
+		<string>https://github.com/hgl888/OM3D.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Alignment/Alignment.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0FBE630A4100D1A9E8E9848FAC43F29F6950E0EC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hgl888/OM3D.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0FBE630A4100D1A9E8E9848FAC43F29F6950E0EC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0FBE630A4100D1A9E8E9848FAC43F29F6950E0EC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OM3D_GIT</string>
+		</dict>
+	</array>
+</dict>
+</plist>
