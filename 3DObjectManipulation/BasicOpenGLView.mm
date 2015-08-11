@@ -413,7 +413,8 @@ using namespace std;
 	filterhsize=3;
 	filtertype=GAUSS_FILTER;
 	nsamp=4;
-	if (argc>1) direc=string([[arguments objectAtIndex:1] UTF8String]);
+	if (argc>1)
+        direc=string([[arguments objectAtIndex:1] UTF8String]);
     
     /*
 	if (argc>1) name=string([[arguments objectAtIndex:1] UTF8String]);
