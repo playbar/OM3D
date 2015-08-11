@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040393591B7A79CD004C3229 /* libmosek64.7.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393581B7A79CD004C3229 /* libmosek64.7.1.dylib */; };
 		F34C6B79190F6B5900A86A46 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6B78190F6B5900A86A46 /* libz.dylib */; };
 		F34C6E5E190F6C7E00A86A46 /* bvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6CA8190F6C7E00A86A46 /* bvh.cpp */; };
 		F34C6E5F190F6C7E00A86A46 /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6CAA190F6C7E00A86A46 /* grid.cpp */; };
@@ -151,8 +152,6 @@
 		F34C6F75190F705600A86A46 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6F72190F705600A86A46 /* libopencv_core.a */; };
 		F34C6F76190F705600A86A46 /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6F73190F705600A86A46 /* libopencv_highgui.a */; };
 		F34C6F77190F705600A86A46 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6F74190F705600A86A46 /* libopencv_imgproc.a */; };
-		F34C6F79190F706B00A86A46 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6F78190F706B00A86A46 /* libz.dylib */; };
-		F34C6F7B190F727400A86A46 /* libmosek64.7.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C6F7A190F727400A86A46 /* libmosek64.7.0.dylib */; };
 		F3E954D318F62AB6009EB990 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3E954D218F62AB6009EB990 /* main.cpp */; };
 		F3E954D618F62FE4009EB990 /* ANNhelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3E954D418F62FE4009EB990 /* ANNhelp.cpp */; };
 		F3E954D918F63216009EB990 /* bilinearInterpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3E954D718F63216009EB990 /* bilinearInterpolation.cpp */; };
@@ -200,6 +199,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		040393581B7A79CD004C3229 /* libmosek64.7.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmosek64.7.1.dylib; path = 3rdparty/mosek/bin/libmosek64.7.1.dylib; sourceTree = "<group>"; };
 		F34C6B78190F6B5900A86A46 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		F34C6CA8190F6C7E00A86A46 /* bvh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bvh.cpp; sourceTree = "<group>"; };
 		F34C6CA9190F6C7E00A86A46 /* bvh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bvh.h; sourceTree = "<group>"; };
@@ -492,8 +492,6 @@
 		F34C6F72190F705600A86A46 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = 3rdparty/opencv/libopencv_core.a; sourceTree = "<group>"; };
 		F34C6F73190F705600A86A46 /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_highgui.a; path = 3rdparty/opencv/libopencv_highgui.a; sourceTree = "<group>"; };
 		F34C6F74190F705600A86A46 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = 3rdparty/opencv/libopencv_imgproc.a; sourceTree = "<group>"; };
-		F34C6F78190F706B00A86A46 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
-		F34C6F7A190F727400A86A46 /* libmosek64.7.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmosek64.7.0.dylib; path = ../../../../../Software/mosek/7/tools/platform/osx64x86/bin/libmosek64.7.0.dylib; sourceTree = "<group>"; };
 		F3E94E3118F628BC009EB990 /* illumapp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = illumapp; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E954D218F62AB6009EB990 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F3E954D418F62FE4009EB990 /* ANNhelp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ANNhelp.cpp; sourceTree = "<group>"; };
@@ -517,12 +515,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F34C6F79190F706B00A86A46 /* libz.dylib in Frameworks */,
-				F34C6F7B190F727400A86A46 /* libmosek64.7.0.dylib in Frameworks */,
 				F34C6F76190F705600A86A46 /* libopencv_highgui.a in Frameworks */,
 				F34C6B79190F6B5900A86A46 /* libz.dylib in Frameworks */,
 				F3FAE75F18FF6AB100F88A1B /* Accelerate.framework in Frameworks */,
 				F34C6F71190F6FC300A86A46 /* libpng16.a in Frameworks */,
+				040393591B7A79CD004C3229 /* libmosek64.7.1.dylib in Frameworks */,
 				F34C6F75190F705600A86A46 /* libopencv_core.a in Frameworks */,
 				F34C6F77190F705600A86A46 /* libopencv_imgproc.a in Frameworks */,
 			);
@@ -534,9 +531,8 @@
 		08FB7794FE84155DC02AAC07 /* pbrt */ = {
 			isa = PBXGroup;
 			children = (
-				F34C6F7A190F727400A86A46 /* libmosek64.7.0.dylib */,
+				040393581B7A79CD004C3229 /* libmosek64.7.1.dylib */,
 				F3FAE75E18FF6AB100F88A1B /* Accelerate.framework */,
-				F34C6F78190F706B00A86A46 /* libz.dylib */,
 				F34C6F72190F705600A86A46 /* libopencv_core.a */,
 				F34C6F73190F705600A86A46 /* libopencv_highgui.a */,
 				F34C6F74190F705600A86A46 /* libopencv_imgproc.a */,
@@ -1274,13 +1270,14 @@
 					"$(PROJECT_DIR)/3rdparty/ann_1.1.2/lib",
 					"$(PROJECT_DIR)/3rdparty/png++/lib",
 					"$(PROJECT_DIR)/3rdparty/opencv",
+					"$(PROJECT_DIR)/3rdparty/mosek/bin",
 				);
 				MATLAB_NAME = MATLAB_R2013a.app;
-				MOSEK_DIR = /Users/nkholgad/Software/mosek/7/tools/platform/osx64x86;
+				MOSEK_DIR = /MyWorks/OM3D/OM3D_GIT/IlluminationAndAppearance/3rdparty/mosek;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lmosek64";
 				PRODUCT_NAME = illumapp;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.10;
 				SYMROOT = build/;
 			};
 			name = Debug;
@@ -1318,13 +1315,14 @@
 					"$(PROJECT_DIR)/3rdparty/ann_1.1.2/lib",
 					"$(PROJECT_DIR)/3rdparty/png++/lib",
 					"$(PROJECT_DIR)/3rdparty/opencv",
+					"$(PROJECT_DIR)/3rdparty/mosek/bin",
 				);
 				MATLAB_NAME = MATLAB_R2013a.app;
-				MOSEK_DIR = /Users/nkholgad/Software/mosek/7/tools/platform/osx64x86;
+				MOSEK_DIR = /MyWorks/OM3D/OM3D_GIT/IlluminationAndAppearance/3rdparty/mosek;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lmosek64";
 				PRODUCT_NAME = illumapp;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.10;
 				SYMROOT = build/;
 			};
 			name = Release;
@@ -1426,13 +1424,14 @@
 					"$(PROJECT_DIR)/3rdparty/ann_1.1.2/lib",
 					"$(PROJECT_DIR)/3rdparty/png++/lib",
 					"$(PROJECT_DIR)/3rdparty/opencv",
+					"$(PROJECT_DIR)/3rdparty/mosek/bin",
 				);
 				MATLAB_NAME = MATLAB_R2013a.app;
-				MOSEK_DIR = /Users/nkholgad/Software/mosek/7/tools/platform/osx64x86;
+				MOSEK_DIR = /MyWorks/OM3D/OM3D_GIT/IlluminationAndAppearance/3rdparty/mosek;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lmosek64";
 				PRODUCT_NAME = illumapp;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.10;
 				SYMROOT = build/;
 			};
 			name = dtrace;

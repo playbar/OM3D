@@ -59,7 +59,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "../../../exmplaes/chair"
+            argument = "../../../examples/chair"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

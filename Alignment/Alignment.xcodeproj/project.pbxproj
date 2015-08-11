@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0403934A1B7A767D004C3229 /* libeng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393481B7A767D004C3229 /* libeng.dylib */; };
 		0403934B1B7A767D004C3229 /* libmx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393491B7A767D004C3229 /* libmx.dylib */; };
 		0403934F1B7A7730004C3229 /* libopencv_core.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403934C1B7A7730004C3229 /* libopencv_core.3.0.0.dylib */; };
 		040393501B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403934D1B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib */; };
@@ -183,7 +182,6 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
-		040393481B7A767D004C3229 /* libeng.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libeng.dylib; path = 3rdparty/matlab/libeng.dylib; sourceTree = "<group>"; };
 		040393491B7A767D004C3229 /* libmx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmx.dylib; path = 3rdparty/matlab/libmx.dylib; sourceTree = "<group>"; };
 		0403934C1B7A7730004C3229 /* libopencv_core.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.0.0.dylib; path = 3rdparty/opencv/libopencv_core.3.0.0.dylib; sourceTree = "<group>"; };
 		0403934D1B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.0.0.dylib; path = 3rdparty/opencv/libopencv_highgui.3.0.0.dylib; sourceTree = "<group>"; };
@@ -478,7 +476,6 @@
 				040393511B7A7730004C3229 /* libopencv_imgproc.3.0.0.dylib in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				040393501B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib in Frameworks */,
-				0403934A1B7A767D004C3229 /* libeng.dylib in Frameworks */,
 				745217950CA98A790067AF41 /* OpenGL.framework in Frameworks */,
 				0403934B1B7A767D004C3229 /* libmx.dylib in Frameworks */,
 				F3C081061905B46F00A55A5E /* libz.dylib in Frameworks */,
@@ -532,7 +529,6 @@
 				0403934C1B7A7730004C3229 /* libopencv_core.3.0.0.dylib */,
 				0403934D1B7A7730004C3229 /* libopencv_highgui.3.0.0.dylib */,
 				0403934E1B7A7730004C3229 /* libopencv_imgproc.3.0.0.dylib */,
-				040393481B7A767D004C3229 /* libeng.dylib */,
 				040393491B7A767D004C3229 /* libmx.dylib */,
 				F34C6B6C190F699A00A86A46 /* libpng16.a */,
 				F34C6133190F642600A86A46 /* objectmanipulation */,
