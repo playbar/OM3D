@@ -11,6 +11,153 @@
 		040393551B7A77D3004C3229 /* libopencv_core.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393521B7A77D3004C3229 /* libopencv_core.3.0.0.dylib */; };
 		040393561B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393531B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib */; };
 		040393571B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393541B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib */; };
+		0439B3861B7D53370021B812 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		0439B3871B7D53370021B812 /* bestcandidate.out in Resources */ = {isa = PBXBuildFile; fileRef = F34C669A190F656900A86A46 /* bestcandidate.out */; };
+		0439B3881B7D53370021B812 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		0439B3891B7D53370021B812 /* pbrtparse.yy in Resources */ = {isa = PBXBuildFile; fileRef = F34C6613190F656900A86A46 /* pbrtparse.yy */; };
+		0439B38A1B7D53370021B812 /* #metropolis.cpp# in Resources */ = {isa = PBXBuildFile; fileRef = F34C668A190F656900A86A46 /* #metropolis.cpp# */; };
+		0439B38C1B7D53370021B812 /* createprobes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C668D190F656900A86A46 /* createprobes.cpp */; };
+		0439B38D1B7D53370021B812 /* filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65EF190F656900A86A46 /* filter.cpp */; };
+		0439B38E1B7D53370021B812 /* lowdiscrepancy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C669D190F656900A86A46 /* lowdiscrepancy.cpp */; };
+		0439B38F1B7D53370021B812 /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65F3190F656900A86A46 /* geometry.cpp */; };
+		0439B3901B7D53370021B812 /* nurbs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66B0190F656900A86A46 /* nurbs.cpp */; };
+		0439B3911B7D53370021B812 /* transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6632190F656900A86A46 /* transform.cpp */; };
+		0439B3921B7D53370021B812 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6600190F656900A86A46 /* material.cpp */; };
+		0439B3931B7D53370021B812 /* mirror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6679190F656900A86A46 /* mirror.cpp */; };
+		0439B3941B7D53370021B812 /* plastic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C667D190F656900A86A46 /* plastic.cpp */; };
+		0439B3951B7D53370021B812 /* film.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65ED190F656900A86A46 /* film.cpp */; };
+		0439B3961B7D53370021B812 /* imageio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65F5190F656900A86A46 /* imageio.cpp */; };
+		0439B3971B7D53370021B812 /* uv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66CB190F656900A86A46 /* uv.cpp */; };
+		0439B3981B7D53370021B812 /* paraboloid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66B2190F656900A86A46 /* paraboloid.cpp */; };
+		0439B3991B7D53370021B812 /* shrots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C662A190F656900A86A46 /* shrots.cpp */; };
+		0439B39A1B7D53370021B812 /* checkerboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66BB190F656900A86A46 /* checkerboard.cpp */; };
+		0439B39B1B7D53370021B812 /* pbrtparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6611190F656900A86A46 /* pbrtparse.cpp */; };
+		0439B39C1B7D53370021B812 /* marble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66C5190F656900A86A46 /* marble.cpp */; };
+		0439B39D1B7D53370021B812 /* bilinearInterpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3311CBD1903330F007FAE21 /* bilinearInterpolation.cpp */; };
+		0439B39E1B7D53370021B812 /* goniometric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6664190F656900A86A46 /* goniometric.cpp */; };
+		0439B39F1B7D53370021B812 /* integrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65F7190F656900A86A46 /* integrator.cpp */; };
+		0439B3A01B7D53370021B812 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6668190F656900A86A46 /* point.cpp */; };
+		0439B3A11B7D53370021B812 /* loopsubdiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66AE190F656900A86A46 /* loopsubdiv.cpp */; };
+		0439B3A21B7D53370021B812 /* sinc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6640190F656900A86A46 /* sinc.cpp */; };
+		0439B3A31B7D53370021B812 /* kdtreeaccel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65D7190F656900A86A46 /* kdtreeaccel.cpp */; };
+		0439B3A41B7D53370021B812 /* projection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C666A190F656900A86A46 /* projection.cpp */; };
+		0439B3A51B7D53370021B812 /* adaptive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6696190F656900A86A46 /* adaptive.cpp */; };
+		0439B3A61B7D53370021B812 /* stratified.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66A1190F656900A86A46 /* stratified.cpp */; };
+		0439B3A71B7D53370021B812 /* perspective.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65DE190F656900A86A46 /* perspective.cpp */; };
+		0439B3A81B7D53370021B812 /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6655190F656900A86A46 /* path.cpp */; };
+		0439B3A91B7D53370021B812 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C662E190F656900A86A46 /* texture.cpp */; };
+		0439B3AA1B7D53370021B812 /* renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C661E190F656900A86A46 /* renderer.cpp */; };
+		0439B3AB1B7D53370021B812 /* imagemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66C3190F656900A86A46 /* imagemap.cpp */; };
+		0439B3AC1B7D53370021B812 /* distant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6662190F656900A86A46 /* distant.cpp */; };
+		0439B3AD1B7D53370021B812 /* pbrtlex.ll in Sources */ = {isa = PBXBuildFile; fileRef = F34C6610190F656900A86A46 /* pbrtlex.ll */; };
+		0439B3AE1B7D53370021B812 /* constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66BD190F656900A86A46 /* constant.cpp */; };
+		0439B3AF1B7D53370021B812 /* progressreporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6618190F656900A86A46 /* progressreporter.cpp */; };
+		0439B3B01B7D53370021B812 /* photonmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6657190F656900A86A46 /* photonmap.cpp */; };
+		0439B3B11B7D53370021B812 /* reflection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C661C190F656900A86A46 /* reflection.cpp */; };
+		0439B3B21B7D53370021B812 /* dipolesubsurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6649190F656900A86A46 /* dipolesubsurface.cpp */; };
+		0439B3B31B7D53370021B812 /* measured.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6675190F656900A86A46 /* measured.cpp */; };
+		0439B3B41B7D53370021B812 /* parallel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6608190F656900A86A46 /* parallel.cpp */; };
+		0439B3B51B7D53370021B812 /* gaussian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C663C190F656900A86A46 /* gaussian.cpp */; };
+		0439B3B61B7D53370021B812 /* montecarlo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6605190F656900A86A46 /* montecarlo.cpp */; };
+		0439B3B71B7D53370021B812 /* CameraSetup.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3FAE81A1902DAD300F88A1B /* CameraSetup.mm */; };
+		0439B3B81B7D53370021B812 /* orthographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65DC190F656900A86A46 /* orthographic.cpp */; };
+		0439B3B91B7D53370021B812 /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65D5190F656900A86A46 /* grid.cpp */; };
+		0439B3BA1B7D53370021B812 /* composition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3311CBF1903330F007FAE21 /* composition.cpp */; };
+		0439B3BB1B7D53370021B812 /* whitted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C665D190F656900A86A46 /* whitted.cpp */; };
+		0439B3BC1B7D53370021B812 /* light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65FC190F656900A86A46 /* light.cpp */; };
+		0439B3BD1B7D53370021B812 /* environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65DA190F656900A86A46 /* environment.cpp */; };
+		0439B3BE1B7D53370021B812 /* samplerrenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6691190F656900A86A46 /* samplerrenderer.cpp */; };
+		0439B3BF1B7D53370021B812 /* metal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6677190F656900A86A46 /* metal.cpp */; };
+		0439B3C01B7D53370021B812 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6630190F656900A86A46 /* timer.cpp */; };
+		0439B3C11B7D53370021B812 /* probes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6616190F656900A86A46 /* probes.cpp */; };
+		0439B3C21B7D53370021B812 /* mixmat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C667B190F656900A86A46 /* mixmat.cpp */; };
+		0439B3C31B7D53370021B812 /* volumegrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66E0190F656900A86A46 /* volumegrid.cpp */; };
+		0439B3C41B7D53370021B812 /* directlighting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C664B190F656900A86A46 /* directlighting.cpp */; };
+		0439B3C51B7D53370021B812 /* diffuseprt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6647190F656900A86A46 /* diffuseprt.cpp */; };
+		0439B3C61B7D53370021B812 /* sh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6626190F656900A86A46 /* sh.cpp */; };
+		0439B3C71B7D53370021B812 /* rng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6620190F656900A86A46 /* rng.cpp */; };
+		0439B3C81B7D53370021B812 /* fileutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65EB190F656900A86A46 /* fileutil.cpp */; };
+		0439B3C91B7D53370021B812 /* lightfunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = F34C65FE190F656900A86A46 /* lightfunctions.c */; };
+		0439B3CA1B7D53370021B812 /* fbm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66C1190F656900A86A46 /* fbm.cpp */; };
+		0439B3CB1B7D53370021B812 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65E9190F656900A86A46 /* error.cpp */; };
+		0439B3CC1B7D53370021B812 /* irradiancecache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6653190F656900A86A46 /* irradiancecache.cpp */; };
+		0439B3CD1B7D53370021B812 /* paramset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C660A190F656900A86A46 /* paramset.cpp */; };
+		0439B3CE1B7D53370021B812 /* subsurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6683190F656900A86A46 /* subsurface.cpp */; };
+		0439B3CF1B7D53370021B812 /* epnp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C64A4190F656900A86A46 /* epnp.cpp */; };
+		0439B3D01B7D53370021B812 /* trace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3311CD0190335FA007FAE21 /* trace.cpp */; };
+		0439B3D11B7D53370021B812 /* kdsubsurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6671190F656900A86A46 /* kdsubsurface.cpp */; };
+		0439B3D21B7D53370021B812 /* mitchell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C663E190F656900A86A46 /* mitchell.cpp */; };
+		0439B3D31B7D53370021B812 /* trianglemesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66B6190F656900A86A46 /* trianglemesh.cpp */; };
+		0439B3D41B7D53370021B812 /* shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6628190F656900A86A46 /* shape.cpp */; };
+		0439B3D51B7D53370021B812 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C660C190F656900A86A46 /* parser.cpp */; };
+		0439B3D61B7D53370021B812 /* diffuse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6660190F656900A86A46 /* diffuse.cpp */; };
+		0439B3D71B7D53370021B812 /* metropolis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C668F190F656900A86A46 /* metropolis.cpp */; };
+		0439B3D81B7D53370021B812 /* emission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C664D190F656900A86A46 /* emission.cpp */; };
+		0439B3D91B7D53370021B812 /* api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65E2190F656900A86A46 /* api.cpp */; };
+		0439B3DA1B7D53370021B812 /* surfacepoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6693190F656900A86A46 /* surfacepoints.cpp */; };
+		0439B3DB1B7D53370021B812 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C669F190F656900A86A46 /* random.cpp */; };
+		0439B3DC1B7D53370021B812 /* useprobes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C665B190F656900A86A46 /* useprobes.cpp */; };
+		0439B3DD1B7D53370021B812 /* bestcandidate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6698190F656900A86A46 /* bestcandidate.cpp */; };
+		0439B3DE1B7D53370021B812 /* bilerp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66B9190F656900A86A46 /* bilerp.cpp */; };
+		0439B3DF1B7D53370021B812 /* pbrtlex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C660F190F656900A86A46 /* pbrtlex.cpp */; };
+		0439B3E01B7D53370021B812 /* volume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6634190F656900A86A46 /* volume.cpp */; };
+		0439B3E11B7D53370021B812 /* helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3311CC21903330F007FAE21 /* helpers.cpp */; };
+		0439B3E21B7D53370021B812 /* spot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C666C190F656900A86A46 /* spot.cpp */; };
+		0439B3E31B7D53370021B812 /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6637190F656900A86A46 /* image.cpp */; };
+		0439B3E41B7D53370021B812 /* quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C661A190F656900A86A46 /* quaternion.cpp */; };
+		0439B3E51B7D53370021B812 /* floatfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65F1190F656900A86A46 /* floatfile.cpp */; };
+		0439B3E61B7D53370021B812 /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6624190F656900A86A46 /* scene.cpp */; };
+		0439B3E71B7D53370021B812 /* sampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6622190F656900A86A46 /* sampler.cpp */; };
+		0439B3E81B7D53370021B812 /* halton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C669B190F656900A86A46 /* halton.cpp */; };
+		0439B3E91B7D53370021B812 /* windy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66CD190F656900A86A46 /* windy.cpp */; };
+		0439B3EA1B7D53370021B812 /* BasicOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3FAE8251902DEA500F88A1B /* BasicOpenGLView.mm */; };
+		0439B3EB1B7D53370021B812 /* matrixUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = F3FAE81D1902DAD300F88A1B /* matrixUtils.c */; };
+		0439B3EC1B7D53370021B812 /* heightfield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66AA190F656900A86A46 /* heightfield.cpp */; };
+		0439B3ED1B7D53370021B812 /* dots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66BF190F656900A86A46 /* dots.cpp */; };
+		0439B3EE1B7D53370021B812 /* ambientocclusion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6645190F656900A86A46 /* ambientocclusion.cpp */; };
+		0439B3EF1B7D53370021B812 /* igi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6651190F656900A86A46 /* igi.cpp */; };
+		0439B3F01B7D53370021B812 /* hyperboloid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66AC190F656900A86A46 /* hyperboloid.cpp */; };
+		0439B3F11B7D53370021B812 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65E4190F656900A86A46 /* camera.cpp */; };
+		0439B3F21B7D53370021B812 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6642190F656900A86A46 /* triangle.cpp */; };
+		0439B3F31B7D53370021B812 /* intersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65F9190F656900A86A46 /* intersection.cpp */; };
+		0439B3F41B7D53370021B812 /* mix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66C7190F656900A86A46 /* mix.cpp */; };
+		0439B3F51B7D53370021B812 /* uber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6687190F656900A86A46 /* uber.cpp */; };
+		0439B3F61B7D53370021B812 /* memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6602190F656900A86A46 /* memory.cpp */; };
+		0439B3F71B7D53370021B812 /* aggregatetest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C668B190F656900A86A46 /* aggregatetest.cpp */; };
+		0439B3F81B7D53370021B812 /* wrinkled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66CF190F656900A86A46 /* wrinkled.cpp */; };
+		0439B3F91B7D53370021B812 /* quadrature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3311CC41903330F007FAE21 /* quadrature.cpp */; };
+		0439B3FA1B7D53370021B812 /* exponential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66DC190F656900A86A46 /* exponential.cpp */; };
+		0439B3FB1B7D53370021B812 /* cylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66A6190F656900A86A46 /* cylinder.cpp */; };
+		0439B3FC1B7D53370021B812 /* dtrace.d in Sources */ = {isa = PBXBuildFile; fileRef = F34C65E8190F656900A86A46 /* dtrace.d */; };
+		0439B3FD1B7D53370021B812 /* translucent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6685190F656900A86A46 /* translucent.cpp */; };
+		0439B3FE1B7D53370021B812 /* glass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C666F190F656900A86A46 /* glass.cpp */; };
+		0439B3FF1B7D53370021B812 /* diffgeom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65E6190F656900A86A46 /* diffgeom.cpp */; };
+		0439B4001B7D53370021B812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		0439B4011B7D53370021B812 /* box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C663A190F656900A86A46 /* box.cpp */; };
+		0439B4021B7D53370021B812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740959010CC8255A00261DBF /* AppDelegate.m */; };
+		0439B4031B7D53370021B812 /* spectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C662B190F656900A86A46 /* spectrum.cpp */; };
+		0439B4041B7D53370021B812 /* cone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66A4190F656900A86A46 /* cone.cpp */; };
+		0439B4051B7D53370021B812 /* substrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6681190F656900A86A46 /* substrate.cpp */; };
+		0439B4061B7D53370021B812 /* infinite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6666190F656900A86A46 /* infinite.cpp */; };
+		0439B4071B7D53370021B812 /* bvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C65D3190F656900A86A46 /* bvh.cpp */; };
+		0439B4081B7D53370021B812 /* single.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6659190F656900A86A46 /* single.cpp */; };
+		0439B4091B7D53370021B812 /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66B4190F656900A86A46 /* sphere.cpp */; };
+		0439B40A1B7D53370021B812 /* matte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6673190F656900A86A46 /* matte.cpp */; };
+		0439B40B1B7D53370021B812 /* primitive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C6614190F656900A86A46 /* primitive.cpp */; };
+		0439B40C1B7D53370021B812 /* homogeneous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66DE190F656900A86A46 /* homogeneous.cpp */; };
+		0439B40D1B7D53370021B812 /* glossyprt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C664F190F656900A86A46 /* glossyprt.cpp */; };
+		0439B40E1B7D53370021B812 /* scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66C9190F656900A86A46 /* scale.cpp */; };
+		0439B40F1B7D53370021B812 /* shinymetal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C667F190F656900A86A46 /* shinymetal.cpp */; };
+		0439B4101B7D53370021B812 /* disk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F34C66A8190F656900A86A46 /* disk.cpp */; };
+		0439B4121B7D53370021B812 /* libopencv_core.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393521B7A77D3004C3229 /* libopencv_core.3.0.0.dylib */; };
+		0439B4131B7D53370021B812 /* libopencv_highgui.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393531B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib */; };
+		0439B4141B7D53370021B812 /* libopencv_imgproc.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040393541B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib */; };
+		0439B4151B7D53370021B812 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403932B1B7A713F004C3229 /* libz.dylib */; };
+		0439B4161B7D53370021B812 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3311CCC19033352007FAE21 /* Accelerate.framework */; };
+		0439B4171B7D53370021B812 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FAE8171902DA7C00F88A1B /* CoreFoundation.framework */; };
+		0439B4181B7D53370021B812 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0439B4191B7D53370021B812 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745217940CA98A790067AF41 /* OpenGL.framework */; };
+		0439B41A1B7D53370021B812 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34C67FD190F65B900A86A46 /* libpng16.a */; };
 		740959030CC8255A00261DBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740959010CC8255A00261DBF /* AppDelegate.m */; };
 		745217950CA98A790067AF41 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745217940CA98A790067AF41 /* OpenGL.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -157,6 +304,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
+		0439B41B1B7D53370021B812 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.lex;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/Lex/$(INPUT_FILE_BASE).cpp",
+				"",
+			);
+			script = "cd \"$DERIVED_FILE_DIR/Lex\" && /usr/bin/flex -o \"$DERIVED_FILE_DIR/Lex/$INPUT_FILE_BASE.cpp\" \"$INPUT_FILE_PATH\" ";
+		};
+		0439B41C1B7D53370021B812 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.yacc;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/Yacc/$(INPUT_FILE_BASE).cpp",
+				"$(DERIVED_FILE_DIR)/Yacc/$(INPUT_FILE_BASE).hpp",
+			);
+			script = "cd \"$DERIVED_FILE_DIR/Yacc\" && /usr/bin/bison -d -v -t \"$INPUT_FILE_PATH\" -o \"$DERIVED_FILE_DIR/Yacc/$INPUT_FILE_BASE.cpp\" &&  /bin/mv \"$DERIVED_FILE_DIR/Yacc/$INPUT_FILE_BASE.hpp\" \"$DERIVED_FILE_DIR/Yacc/$INPUT_FILE_BASE.hh\"";
+		};
 		F33119631903044F007FAE21 /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.proxy.script;
@@ -183,12 +352,11 @@
 
 /* Begin PBXFileReference section */
 		0403932B1B7A713F004C3229 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = SYSTEM_DEVELOPER_DIR; };
-		0403932D1B7A72E4004C3229 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = 3rdparty/opencv/lib/libopencv_core.a; sourceTree = "<group>"; };
-		0403932E1B7A72E4004C3229 /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_highgui.a; path = 3rdparty/opencv/lib/libopencv_highgui.a; sourceTree = "<group>"; };
-		0403932F1B7A72E4004C3229 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = 3rdparty/opencv/lib/libopencv_imgproc.a; sourceTree = "<group>"; };
 		040393521B7A77D3004C3229 /* libopencv_core.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.0.0.dylib; path = 3rdparty/opencv/libopencv_core.3.0.0.dylib; sourceTree = "<group>"; };
 		040393531B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.0.0.dylib; path = 3rdparty/opencv/libopencv_highgui.3.0.0.dylib; sourceTree = "<group>"; };
 		040393541B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.0.0.dylib; path = 3rdparty/opencv/libopencv_imgproc.3.0.0.dylib; sourceTree = "<group>"; };
+		0439B4201B7D53370021B812 /* 3DObject_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DObject_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0439B4211B7D53370021B812 /* 3DObject_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = 3DObject_Info.plist; path = /MyWorks/OM3D/OM3D_GIT/3DObjectManipulation/3DObject_Info.plist; sourceTree = "<absolute>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -463,7 +631,6 @@
 		F34C66E0190F656900A86A46 /* volumegrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = volumegrid.cpp; sourceTree = "<group>"; };
 		F34C66E1190F656900A86A46 /* volumegrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = volumegrid.h; sourceTree = "<group>"; };
 		F34C67FD190F65B900A86A46 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = "3rdparty/png++/lib/libpng16.a"; sourceTree = "<group>"; };
-		F3C081051905B46F00A55A5E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.dylib; sourceTree = SYSTEM_DEVELOPER_DIR; };
 		F3FAE8171902DA7C00F88A1B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = SYSTEM_DEVELOPER_DIR; };
 		F3FAE8191902DAD300F88A1B /* CameraSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSetup.h; sourceTree = "<group>"; };
 		F3FAE81A1902DAD300F88A1B /* CameraSetup.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraSetup.mm; sourceTree = "<group>"; };
@@ -473,6 +640,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0439B4111B7D53370021B812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0439B4121B7D53370021B812 /* libopencv_core.3.0.0.dylib in Frameworks */,
+				0439B4131B7D53370021B812 /* libopencv_highgui.3.0.0.dylib in Frameworks */,
+				0439B4141B7D53370021B812 /* libopencv_imgproc.3.0.0.dylib in Frameworks */,
+				0439B4151B7D53370021B812 /* libz.dylib in Frameworks */,
+				0439B4161B7D53370021B812 /* Accelerate.framework in Frameworks */,
+				0439B4171B7D53370021B812 /* CoreFoundation.framework in Frameworks */,
+				0439B4181B7D53370021B812 /* Cocoa.framework in Frameworks */,
+				0439B4191B7D53370021B812 /* OpenGL.framework in Frameworks */,
+				0439B41A1B7D53370021B812 /* libpng16.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,6 +708,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* 3DObjectManipulation.app */,
+				0439B4201B7D53370021B812 /* 3DObject_ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -540,6 +724,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				0439B4211B7D53370021B812 /* 3DObject_Info.plist */,
 			);
 			name = "Cocoa OpenGL";
 			sourceTree = "<group>";
@@ -571,11 +756,7 @@
 				040393521B7A77D3004C3229 /* libopencv_core.3.0.0.dylib */,
 				040393531B7A77D3004C3229 /* libopencv_highgui.3.0.0.dylib */,
 				040393541B7A77D3004C3229 /* libopencv_imgproc.3.0.0.dylib */,
-				0403932D1B7A72E4004C3229 /* libopencv_core.a */,
-				0403932E1B7A72E4004C3229 /* libopencv_highgui.a */,
-				0403932F1B7A72E4004C3229 /* libopencv_imgproc.a */,
 				0403932B1B7A713F004C3229 /* libz.dylib */,
-				F3C081051905B46F00A55A5E /* libz.dylib */,
 				F3311CCC19033352007FAE21 /* Accelerate.framework */,
 				F3FAE8171902DA7C00F88A1B /* CoreFoundation.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
@@ -982,6 +1163,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0439B3841B7D53370021B812 /* 3DObject_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0439B41D1B7D53370021B812 /* Build configuration list for PBXNativeTarget "3DObject_ios" */;
+			buildPhases = (
+				0439B3851B7D53370021B812 /* Resources */,
+				0439B38B1B7D53370021B812 /* Sources */,
+				0439B4111B7D53370021B812 /* Frameworks */,
+			);
+			buildRules = (
+				0439B41B1B7D53370021B812 /* PBXBuildRule */,
+				0439B41C1B7D53370021B812 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = 3DObject_ios;
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Cocoa OpenGL";
+			productReference = 0439B4201B7D53370021B812 /* 3DObject_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8D1107260486CEB800E47090 /* 3DObjectManipulation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "3DObjectManipulation" */;
@@ -1021,11 +1222,24 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* 3DObjectManipulation */,
+				0439B3841B7D53370021B812 /* 3DObject_ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0439B3851B7D53370021B812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0439B3861B7D53370021B812 /* MainMenu.nib in Resources */,
+				0439B3871B7D53370021B812 /* bestcandidate.out in Resources */,
+				0439B3881B7D53370021B812 /* InfoPlist.strings in Resources */,
+				0439B3891B7D53370021B812 /* pbrtparse.yy in Resources */,
+				0439B38A1B7D53370021B812 /* #metropolis.cpp# in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1041,6 +1255,146 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0439B38B1B7D53370021B812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0439B38C1B7D53370021B812 /* createprobes.cpp in Sources */,
+				0439B38D1B7D53370021B812 /* filter.cpp in Sources */,
+				0439B38E1B7D53370021B812 /* lowdiscrepancy.cpp in Sources */,
+				0439B38F1B7D53370021B812 /* geometry.cpp in Sources */,
+				0439B3901B7D53370021B812 /* nurbs.cpp in Sources */,
+				0439B3911B7D53370021B812 /* transform.cpp in Sources */,
+				0439B3921B7D53370021B812 /* material.cpp in Sources */,
+				0439B3931B7D53370021B812 /* mirror.cpp in Sources */,
+				0439B3941B7D53370021B812 /* plastic.cpp in Sources */,
+				0439B3951B7D53370021B812 /* film.cpp in Sources */,
+				0439B3961B7D53370021B812 /* imageio.cpp in Sources */,
+				0439B3971B7D53370021B812 /* uv.cpp in Sources */,
+				0439B3981B7D53370021B812 /* paraboloid.cpp in Sources */,
+				0439B3991B7D53370021B812 /* shrots.cpp in Sources */,
+				0439B39A1B7D53370021B812 /* checkerboard.cpp in Sources */,
+				0439B39B1B7D53370021B812 /* pbrtparse.cpp in Sources */,
+				0439B39C1B7D53370021B812 /* marble.cpp in Sources */,
+				0439B39D1B7D53370021B812 /* bilinearInterpolation.cpp in Sources */,
+				0439B39E1B7D53370021B812 /* goniometric.cpp in Sources */,
+				0439B39F1B7D53370021B812 /* integrator.cpp in Sources */,
+				0439B3A01B7D53370021B812 /* point.cpp in Sources */,
+				0439B3A11B7D53370021B812 /* loopsubdiv.cpp in Sources */,
+				0439B3A21B7D53370021B812 /* sinc.cpp in Sources */,
+				0439B3A31B7D53370021B812 /* kdtreeaccel.cpp in Sources */,
+				0439B3A41B7D53370021B812 /* projection.cpp in Sources */,
+				0439B3A51B7D53370021B812 /* adaptive.cpp in Sources */,
+				0439B3A61B7D53370021B812 /* stratified.cpp in Sources */,
+				0439B3A71B7D53370021B812 /* perspective.cpp in Sources */,
+				0439B3A81B7D53370021B812 /* path.cpp in Sources */,
+				0439B3A91B7D53370021B812 /* texture.cpp in Sources */,
+				0439B3AA1B7D53370021B812 /* renderer.cpp in Sources */,
+				0439B3AB1B7D53370021B812 /* imagemap.cpp in Sources */,
+				0439B3AC1B7D53370021B812 /* distant.cpp in Sources */,
+				0439B3AD1B7D53370021B812 /* pbrtlex.ll in Sources */,
+				0439B3AE1B7D53370021B812 /* constant.cpp in Sources */,
+				0439B3AF1B7D53370021B812 /* progressreporter.cpp in Sources */,
+				0439B3B01B7D53370021B812 /* photonmap.cpp in Sources */,
+				0439B3B11B7D53370021B812 /* reflection.cpp in Sources */,
+				0439B3B21B7D53370021B812 /* dipolesubsurface.cpp in Sources */,
+				0439B3B31B7D53370021B812 /* measured.cpp in Sources */,
+				0439B3B41B7D53370021B812 /* parallel.cpp in Sources */,
+				0439B3B51B7D53370021B812 /* gaussian.cpp in Sources */,
+				0439B3B61B7D53370021B812 /* montecarlo.cpp in Sources */,
+				0439B3B71B7D53370021B812 /* CameraSetup.mm in Sources */,
+				0439B3B81B7D53370021B812 /* orthographic.cpp in Sources */,
+				0439B3B91B7D53370021B812 /* grid.cpp in Sources */,
+				0439B3BA1B7D53370021B812 /* composition.cpp in Sources */,
+				0439B3BB1B7D53370021B812 /* whitted.cpp in Sources */,
+				0439B3BC1B7D53370021B812 /* light.cpp in Sources */,
+				0439B3BD1B7D53370021B812 /* environment.cpp in Sources */,
+				0439B3BE1B7D53370021B812 /* samplerrenderer.cpp in Sources */,
+				0439B3BF1B7D53370021B812 /* metal.cpp in Sources */,
+				0439B3C01B7D53370021B812 /* timer.cpp in Sources */,
+				0439B3C11B7D53370021B812 /* probes.cpp in Sources */,
+				0439B3C21B7D53370021B812 /* mixmat.cpp in Sources */,
+				0439B3C31B7D53370021B812 /* volumegrid.cpp in Sources */,
+				0439B3C41B7D53370021B812 /* directlighting.cpp in Sources */,
+				0439B3C51B7D53370021B812 /* diffuseprt.cpp in Sources */,
+				0439B3C61B7D53370021B812 /* sh.cpp in Sources */,
+				0439B3C71B7D53370021B812 /* rng.cpp in Sources */,
+				0439B3C81B7D53370021B812 /* fileutil.cpp in Sources */,
+				0439B3C91B7D53370021B812 /* lightfunctions.c in Sources */,
+				0439B3CA1B7D53370021B812 /* fbm.cpp in Sources */,
+				0439B3CB1B7D53370021B812 /* error.cpp in Sources */,
+				0439B3CC1B7D53370021B812 /* irradiancecache.cpp in Sources */,
+				0439B3CD1B7D53370021B812 /* paramset.cpp in Sources */,
+				0439B3CE1B7D53370021B812 /* subsurface.cpp in Sources */,
+				0439B3CF1B7D53370021B812 /* epnp.cpp in Sources */,
+				0439B3D01B7D53370021B812 /* trace.cpp in Sources */,
+				0439B3D11B7D53370021B812 /* kdsubsurface.cpp in Sources */,
+				0439B3D21B7D53370021B812 /* mitchell.cpp in Sources */,
+				0439B3D31B7D53370021B812 /* trianglemesh.cpp in Sources */,
+				0439B3D41B7D53370021B812 /* shape.cpp in Sources */,
+				0439B3D51B7D53370021B812 /* parser.cpp in Sources */,
+				0439B3D61B7D53370021B812 /* diffuse.cpp in Sources */,
+				0439B3D71B7D53370021B812 /* metropolis.cpp in Sources */,
+				0439B3D81B7D53370021B812 /* emission.cpp in Sources */,
+				0439B3D91B7D53370021B812 /* api.cpp in Sources */,
+				0439B3DA1B7D53370021B812 /* surfacepoints.cpp in Sources */,
+				0439B3DB1B7D53370021B812 /* random.cpp in Sources */,
+				0439B3DC1B7D53370021B812 /* useprobes.cpp in Sources */,
+				0439B3DD1B7D53370021B812 /* bestcandidate.cpp in Sources */,
+				0439B3DE1B7D53370021B812 /* bilerp.cpp in Sources */,
+				0439B3DF1B7D53370021B812 /* pbrtlex.cpp in Sources */,
+				0439B3E01B7D53370021B812 /* volume.cpp in Sources */,
+				0439B3E11B7D53370021B812 /* helpers.cpp in Sources */,
+				0439B3E21B7D53370021B812 /* spot.cpp in Sources */,
+				0439B3E31B7D53370021B812 /* image.cpp in Sources */,
+				0439B3E41B7D53370021B812 /* quaternion.cpp in Sources */,
+				0439B3E51B7D53370021B812 /* floatfile.cpp in Sources */,
+				0439B3E61B7D53370021B812 /* scene.cpp in Sources */,
+				0439B3E71B7D53370021B812 /* sampler.cpp in Sources */,
+				0439B3E81B7D53370021B812 /* halton.cpp in Sources */,
+				0439B3E91B7D53370021B812 /* windy.cpp in Sources */,
+				0439B3EA1B7D53370021B812 /* BasicOpenGLView.mm in Sources */,
+				0439B3EB1B7D53370021B812 /* matrixUtils.c in Sources */,
+				0439B3EC1B7D53370021B812 /* heightfield.cpp in Sources */,
+				0439B3ED1B7D53370021B812 /* dots.cpp in Sources */,
+				0439B3EE1B7D53370021B812 /* ambientocclusion.cpp in Sources */,
+				0439B3EF1B7D53370021B812 /* igi.cpp in Sources */,
+				0439B3F01B7D53370021B812 /* hyperboloid.cpp in Sources */,
+				0439B3F11B7D53370021B812 /* camera.cpp in Sources */,
+				0439B3F21B7D53370021B812 /* triangle.cpp in Sources */,
+				0439B3F31B7D53370021B812 /* intersection.cpp in Sources */,
+				0439B3F41B7D53370021B812 /* mix.cpp in Sources */,
+				0439B3F51B7D53370021B812 /* uber.cpp in Sources */,
+				0439B3F61B7D53370021B812 /* memory.cpp in Sources */,
+				0439B3F71B7D53370021B812 /* aggregatetest.cpp in Sources */,
+				0439B3F81B7D53370021B812 /* wrinkled.cpp in Sources */,
+				0439B3F91B7D53370021B812 /* quadrature.cpp in Sources */,
+				0439B3FA1B7D53370021B812 /* exponential.cpp in Sources */,
+				0439B3FB1B7D53370021B812 /* cylinder.cpp in Sources */,
+				0439B3FC1B7D53370021B812 /* dtrace.d in Sources */,
+				0439B3FD1B7D53370021B812 /* translucent.cpp in Sources */,
+				0439B3FE1B7D53370021B812 /* glass.cpp in Sources */,
+				0439B3FF1B7D53370021B812 /* diffgeom.cpp in Sources */,
+				0439B4001B7D53370021B812 /* main.m in Sources */,
+				0439B4011B7D53370021B812 /* box.cpp in Sources */,
+				0439B4021B7D53370021B812 /* AppDelegate.m in Sources */,
+				0439B4031B7D53370021B812 /* spectrum.cpp in Sources */,
+				0439B4041B7D53370021B812 /* cone.cpp in Sources */,
+				0439B4051B7D53370021B812 /* substrate.cpp in Sources */,
+				0439B4061B7D53370021B812 /* infinite.cpp in Sources */,
+				0439B4071B7D53370021B812 /* bvh.cpp in Sources */,
+				0439B4081B7D53370021B812 /* single.cpp in Sources */,
+				0439B4091B7D53370021B812 /* sphere.cpp in Sources */,
+				0439B40A1B7D53370021B812 /* matte.cpp in Sources */,
+				0439B40B1B7D53370021B812 /* primitive.cpp in Sources */,
+				0439B40C1B7D53370021B812 /* homogeneous.cpp in Sources */,
+				0439B40D1B7D53370021B812 /* glossyprt.cpp in Sources */,
+				0439B40E1B7D53370021B812 /* scale.cpp in Sources */,
+				0439B40F1B7D53370021B812 /* shinymetal.cpp in Sources */,
+				0439B4101B7D53370021B812 /* disk.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1203,6 +1557,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0439B41E1B7D53370021B812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = PBRT_PROBES_NONE;
+				HEADER_SEARCH_PATHS = (
+					./include,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(DERIVED_FILE_DIR)/Yacc",
+					"./3rdparty/png++/include",
+					./3rdparty/pbrt,
+					/usr/local/include,
+					.,
+					/opt/local/include,
+					./3rdparty/epnp,
+					./3rdparty/opencv/include,
+				);
+				INFOPLIST_FILE = 3DObject_info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/3rdparty/png++/lib",
+					"$(PROJECT_DIR)/3rdparty/opencv/lib",
+					"$(PROJECT_DIR)/3rdparty/opencv",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = 3DObject_ios;
+				SDKROOT = iphoneos8.1;
+				SYMROOT = build;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		0439B41F1B7D53370021B812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = PBRT_PROBES_NONE;
+				HEADER_SEARCH_PATHS = (
+					.,
+					./include,
+					"./3rdparty/png++/include",
+					./3rdparty/epnp,
+					./3rdparty/pbrt,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(DERIVED_FILE_DIR)/Yacc",
+					./3rdparty/opencv/include,
+				);
+				INFOPLIST_FILE = 3DObject_info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/3rdparty/png++/lib",
+					"$(PROJECT_DIR)/3rdparty/opencv/lib",
+					"$(PROJECT_DIR)/3rdparty/opencv",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = 3DObject_ios;
+				SDKROOT = iphoneos8.1;
+				SYMROOT = build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1336,6 +1766,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0439B41D1B7D53370021B812 /* Build configuration list for PBXNativeTarget "3DObject_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0439B41E1B7D53370021B812 /* Debug */,
+				0439B41F1B7D53370021B812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "3DObjectManipulation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
